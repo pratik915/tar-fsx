@@ -1,5 +1,5 @@
 {
-  "name": "tar-fsx",
+  "name": "tar-fs-executable",
   "version": "1.0.0",
   "description": "tar-fs module with execution permissions",
   "dependencies": {
