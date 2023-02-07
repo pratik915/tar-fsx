@@ -2,10 +2,31 @@
   "name": "tar-fsx",
   "version": "1.0.0",
   "description": "tar-fs module with execution permissions",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "chownr": "^1.1.1",
+    "mkdirp-classic": "^0.5.2",
+    "pump": "^3.0.0",
+    "tar-stream": "^2.1.4"
   },
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "tar",
+    "fs",
+    "file",
+    "tarball",
+    "directory",
+    "stream"
+  ],
+  "devDependencies": {
+    "rimraf": "^2.6.3",
+    "standard": "^13.0.1",
+    "tape": "^4.9.2"
+  },
+  "homepage": "https://github.com/pratik915/tar-fsx",
+  "main": "index.js",
+  "author": "Pratik Pathak",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pratik915/tar-fsx.git"
+  }
 }
